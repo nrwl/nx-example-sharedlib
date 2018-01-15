@@ -1,0 +1,23 @@
+{
+  "name": "sharedlib",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "compile": "rm -rf dist && ngc"
+  },
+  "private": true,
+  "main": "dist/sharedlib.module.js",
+  "jsnext:main": "dist/sharedlib.module.js",
+  "dependencies": {
+    "@angular/common": "5.1.0",
+    "@angular/compiler": "5.1.0",
+    "@angular/core": "5.1.0",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.5.2",
+    "zone.js": "^0.8.14"
+  },
+  "devDependencies": {
+    "@angular/compiler-cli": "5.1.0",
+    "typescript": "2.5.3"
+  }
+}
